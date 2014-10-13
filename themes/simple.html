@@ -1,0 +1,31 @@
+                <script type="text/javascript">var RecaptchaOptions = {
+                                                                       theme: "custom",
+                                                                       custom_theme_widget: 'recaptcha_widget'
+                                                                      };
+                </script>
+                <div id="recaptcha_widget" class="panel panel-default" style="display:none">
+                    <div class="panel-body alert-default">
+                        <label class="control-label" for="recaptcha_response_field">Are you human?</label>
+                        <div class="small pull-right">
+                            <a id="recaptcha_reload_btn" href="javascript:Recaptcha.reload()" title="Get a new challenge" tabindex="-1"><span class="fa fa-refresh"></span></a> |
+                            <span class="recaptcha_only_if_image">
+                                <a href="javascript:Recaptcha.switch_type(&#39;audio&#39;)" title="Get audio challenge" tabindex="-1"><span class="fa fa-headphones"></span></a> |
+                            </span>
+                            <span class="recaptcha_only_if_audio">
+                                <a href="javascript:Recaptcha.switch_type(&#39;image&#39;)" title="Get image challenge" tabindex="-1"><span class="fa fa-file-image-o"></span></a> |
+                            </span>
+                            <a href="javascript:Recaptcha.showhelp()" title="Help" tabindex="-1"><span class="fa fa-question"></span></a>
+                        </div>
+                        <div class="thumbnail">
+                        <div id="recaptcha_image" class="center-block"></div>
+                        </div>
+                        <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Solve reCAPTCHA">
+                        <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+                        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=your_public_key"></script>
+                        <noscript>
+                            <iframe src="http://www.google.com/recaptcha/api/noscript?k=your_public_key" height="300" width="500" frameborder="0"></iframe>
+                            <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                            <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+                        </noscript>
+                    </div>
+                </div>
