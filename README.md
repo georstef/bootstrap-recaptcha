@@ -3,7 +3,7 @@ reCAPTCHA themes based on Bootstrap
 
 reCAPTCHA themes based on [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
-[Check all the themes!](http://georstef.github.io/bootstrap-recaptcha/)
+[View all the themes!](http://georstef.github.io/bootstrap-recaptcha/)
 
 
 Requirements
@@ -25,6 +25,6 @@ How To Use
      <!-- ... more of your form code here ... -->
  </form>
  ```
- - replace `your_public_key` with *your public key*
+ - replace `your_public_key` with **your public key**
  - (optional) download theme's CSS and include it into your project
  
