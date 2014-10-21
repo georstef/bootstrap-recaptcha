@@ -20,7 +20,7 @@ How To Use
  <form action="" method="post">
      <!-- ... your form code here... -->
 
-     <!-- reCaptcha HTML snippet goes here -->
+     <!-- bootstrap-reCaptcha HTML snippet goes here -->
 
      <!-- ... more of your form code here ... -->
  </form>
