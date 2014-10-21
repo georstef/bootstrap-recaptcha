@@ -15,7 +15,7 @@ Requirements
  
 How To Use
 --------------------
- - copy the HTML snippet in your <form> element ([example](https://developers.google.com/recaptcha/docs/display#Standard))
+ - copy the HTML snippet in your &lt;form&gt; element ([like this](https://developers.google.com/recaptcha/docs/display#Standard))
  ```html
  <form action="" method="post">
      <!-- ... your form code here... -->
@@ -25,6 +25,6 @@ How To Use
      <!-- ... more of your form code here ... -->
  </form>
  ```
- - replace your_public_key with your public key
+ - replace `your_public_key` with *your public key*
  - (optional) download theme's CSS and include it into your project
  
