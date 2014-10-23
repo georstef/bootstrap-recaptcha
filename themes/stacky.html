@@ -7,7 +7,7 @@
                     <div class="panel-body">
                         <label class="control-label" for="recaptcha_response_field">[insert title here]</label>
                         <div class="row">
-                            <div id="recaptcha_image" class="pull-left"></div>
+                            <div id="recaptcha_image" class="col-xs-8"></div>
                             <div class="small text-center">
                                 <div>
                                     <a id="recaptcha_reload_btn" href="javascript:Recaptcha.reload()" title="Get a new challenge" tabindex="-1"><span class="fa fa-refresh"></span></a>
@@ -25,6 +25,7 @@
                                 </div>
                             </div>
                         </div>
+                        <br>
                         <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Solve reCAPTCHA">
                         <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
                         <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Ld4iQsAAAAAAM3nfX_K0vXaUudl2Gk0lpTF3REf"></script>
