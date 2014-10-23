@@ -1,0 +1,18 @@
+                    <script type="text/javascript">var RecaptchaOptions = {
+                                                                           theme: "custom",
+                                                                           custom_theme_widget: 'recaptcha_widget'
+                                                                          };
+                    </script>
+                    <div id="recaptcha_widget" class="panel panel-default" style="display:none">
+                        <div class="panel-body">
+                            <div id="recaptcha_image" class="col-xs-8"></div>
+                            <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Solve reCAPTCHA">
+                            <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+                            <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Ld4iQsAAAAAAM3nfX_K0vXaUudl2Gk0lpTF3REf"></script>
+                            <noscript>
+                                <iframe src="http://www.google.com/recaptcha/api/noscript?k=6Ld4iQsAAAAAAM3nfX_K0vXaUudl2Gk0lpTF3REf" height="300" width="500" frameborder="0"></iframe>
+                                <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+                            </noscript>
+                        </div>
+                    </div>
