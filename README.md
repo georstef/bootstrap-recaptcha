@@ -18,11 +18,9 @@ How To Use
  - copy the HTML snippet in your &lt;form&gt; element ([like this](https://developers.google.com/recaptcha/docs/display#Standard))
  ```html
  <form action="" method="post">
-     <!-- ... your form code here... -->
 
      <!-- bootstrap-reCaptcha HTML snippet goes here -->
 
-     <!-- ... more of your form code here ... -->
  </form>
  ```
  - replace `your_public_key` with **your public key**
