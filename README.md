@@ -23,6 +23,6 @@ How To Use
 
  </form>
  ```
- - replace `your_public_key` with **your public key**
+ - replace `your_public_key` with [**your public key**](https://www.google.com/recaptcha/admin)
  - (optional) download theme's CSS and include it into your project
  
