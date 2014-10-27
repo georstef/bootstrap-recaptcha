@@ -7,15 +7,15 @@
     <meta name="description" content="reCAPTCHA based on Bootstrap and Font Awesome!">
     <link rel="icon" href="../../favicon.ico">
 
-     <title>Bootstrap - reCAPTCHA</title>
+    <title>Bootstrap - reCAPTCHA</title>
 
-    <!-- Bootstrap core CSS
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    -->
     <!-- Bootswatch United theme -->
     <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/united/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="assets/css/docs.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -35,111 +35,41 @@
           <li><a href="http://lipis.github.io/bootstrap-social/"><i class="fa fa-users"></i> bootstrap-social</a></li>
           <li><a href="http://lipis.github.io/flag-icon-css/"><i class="fa fa-flag"></i> flag-icon-css</a></li>
         </ul>
-        <!--
-        <iframe src="http://ghbtns.com/github-btn.html?user=georstef&amp;repo=bootstrap-recaptcha&amp;type=watch&amp;count=true" class="social-share"></iframe>
-        <a href="https://twitter.com/share" class="social-share twitter-share-button" data-url="http://georstef.github.io/bootstrap-recaptcha/" data-text="reCAPTCHA based on Bootstrap and Font Awesome!" data-via="georstef" data-hashtags="bootstrap css">Tweet</a>
-        -->
       </div>
     </div>
 
-    <h2 class="text-center">
-        Coming Soon!
-    </h2>
-    
+   
     <div class="container">
+        <h2 class="text-center">
+            Coming Soon!....really
+        </h2>
+        
+        <hr>
+        
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-4 panel panel-default">
-                <div class="preview">
-                    <div class="image">
-                        <img src="images/righty.png" class="img-responsive" alt="Righty">
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <iframe src="themes/default.html"></iframe>
+                        <hr>
+                        <div class="links text-center panel-body">
+                            <h3>Righty</h3>
+                            <div class="btn-group">
+                              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Download
+                                <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.html">righty.html</a></li>
+                                <li><a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.css">righty.css</a></li>
+                              </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="links text-center panel-body">
-                    <h3>Righty</h3>
-                    <div class="btn-group">
-                      <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Download
-                        <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.html">righty.html</a></li>
-                        <li><a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.css">righty.css</a></li>
-                      </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 panel panel-default">
-                <div class="preview">
-                    <div class="image">
-                        <img src="images/righty.png" class="img-responsive" alt="Righty">
-                    </div>
-                </div>
-                <div class="links text-center panel-body">
-                    <h3>Righty</h3>
-                    <h5>Download</h5>
-                    <a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.html" download>righty.html</a>
-                    <span> - </span>
-                    <a target="_blank" href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.css" download>righty.css</a>
-                    <br>
-                    <h5>or</h5>
-                    <span>Download: </span>
-                    <a href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.html" class="badge">html</a>
-                    <a href="https://raw.githubusercontent.com/georstef/bootstrap-recaptcha/gh-pages/themes/righty.css"><span class="badge">css</span></a>
                 </div>
             </div>
         </div>
     </div>
-<!--    
-    <hr>
-    
-    <div class="container">
-        <form action="" method="post"> 
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  
-                    <script type="text/javascript">var RecaptchaOptions = {
-                                                                           theme: "custom",
-                                                                           custom_theme_widget: 'recaptcha_widget'
-                                                                          };
-                    </script>
-                    <div id="recaptcha_widget" class="panel panel-default" style="display:none">
-                        <div class="panel-body alert-default">
-                            <label class="control-label" for="recaptcha_response_field">[insert title here]</label>
-                            <div class="thumbnail">
-                                <div id="recaptcha_image" class="center-block"></div>
-                            </div>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Solve reCAPTCHA">
-                                <span class="input-group-addon">
-                                    <a id="recaptcha_reload_btn" href="javascript:Recaptcha.reload()" title="Get a new challenge" tabindex="-1"><span class="fa fa-refresh"></span></a>
-                                </span>                        
-                                <span class="input-group-addon">
-                                    <span class="recaptcha_only_if_image">
-                                        <a href="javascript:Recaptcha.switch_type(&#39;audio&#39;)" title="Get audio challenge" tabindex="-1"><span class="fa fa-headphones"></span></a>
-                                    </span>
-                                    <span class="recaptcha_only_if_audio">
-                                        <a href="javascript:Recaptcha.switch_type(&#39;image&#39;)" title="Get image challenge" tabindex="-1"><span class="fa fa-file-image-o"></span></a>
-                                    </span>
-                                </span>                        
-                                <span class="input-group-addon">
-                                    <a href="javascript:Recaptcha.showhelp()" title="Help" tabindex="-1"><span class="fa fa-question"></span></a>
-                                </span>                        
-                            </div>
-                            <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
-                            <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Ld4iQsAAAAAAM3nfX_K0vXaUudl2Gk0lpTF3REf"></script>
-                            <noscript>
-                                <iframe src="http://www.google.com/recaptcha/api/noscript?k=6Ld4iQsAAAAAAM3nfX_K0vXaUudl2Gk0lpTF3REf" height="300" width="500" frameborder="0"></iframe>
-                                <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-                                <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
-                            </noscript>
-                        </div>
-                    </div>
-                </div>
-                
-                
-            </div>        
-        </form>
-    </div>
--->
+
     <hr>
     <footer class="text-center">
       <ul class="list-inline">
