@@ -1,0 +1,35 @@
+<script type="text/javascript">
+  var RecaptchaOptions = {
+    theme: 'custom',
+    custom_theme_widget: 'recaptcha_widget'
+  };
+</script>
+<div id="recaptcha_widget">
+  <label class="control-label" for="recaptcha_response_field">Stacky</label>
+  <div class="col-xs-12 thumbnail">
+    <div class="col-xs-10">
+     <div id="recaptcha_image" class="center-block"></div>
+    </div>
+    <div class="col-xs-2">
+      <div class="small pull-right">
+        <div>
+          <a id="recaptcha_reload_btn" href="javascript:Recaptcha.reload()" title="Get a new challenge" tabindex="-1"><span class="fa fa-refresh"></span></a>
+        </div>
+        <div>
+          <span class="recaptcha_only_if_image small">
+            <a href="javascript:Recaptcha.switch_type(&#39;audio&#39;)" title="Get audio challenge" tabindex="-1"><span class="fa fa-headphones"></span></a>
+          </span>
+          <span class="recaptcha_only_if_audio">
+            <a href="javascript:Recaptcha.switch_type(&#39;image&#39;)" title="Get image challenge" tabindex="-1"><span class="fa fa-file-image-o"></span></a>
+          </span>
+        </div>
+        <div>
+          <a href="javascript:Recaptcha.showhelp()" title="Help" tabindex="-1"><span class="fa fa-question"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Type the text">
+  <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+  <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Le2u_wSAAAAAL_gETRxPdb5oU3p5if1cDLCasKT"></script>
+</div>
