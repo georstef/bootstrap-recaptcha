@@ -1,0 +1,15 @@
+<script type="text/javascript">
+  var RecaptchaOptions = {
+    theme: 'custom',
+    custom_theme_widget: 'recaptcha_widget'
+  };
+</script>
+<div id="recaptcha_widget">
+  <label class="control-label" for="recaptcha_response_field">Minimaly</label>
+  <div class="thumbnail">
+    <div id="recaptcha_image" class="center-block"></div>
+  </div>
+  <input class="form-control" type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Type the text">
+  <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+  <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Le2u_wSAAAAAL_gETRxPdb5oU3p5if1cDLCasKT"></script>
+</div>
