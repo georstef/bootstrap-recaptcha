@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-recaptcha",
+  "homepage": "http://georstef.github.io/bootstrap-recaptcha/",
+  "authors": [
+    "George Pratanopoulos <georstef@gmail.com>",
+    "Panayiotis Lipiridis <lipiridis@gmail.com>"
+  ],
+  "main": [
+  ],
+  "keywords": [
+    "recaptcha",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:georstef/bootstrap-recaptcha.git"
+  },
+  "license": "MIT"
+}

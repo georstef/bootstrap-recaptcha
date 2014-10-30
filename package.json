@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-recaptcha",
+  "description": "A beautiful 'replacement' for JavaScript's alert",
+  "homepage": "http://georstef.github.io/bootstrap-recaptcha/",
+  "author": "George Pratanopoulos <georstef@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/georstef/bootstrap-recaptcha"
+  },
+  "dependencies": {
+    "bootstrap": "~3"
+  },
+  "devDependencies": {
+    "grunt": "~0",
+    "grunt-contrib-connect": "~0",
+    "grunt-contrib-less": "~0.10",
+    "grunt-contrib-watch": "~0",
+    "grunt-open": "~0",
+    "load-grunt-tasks": "~0"
+  }
+}
