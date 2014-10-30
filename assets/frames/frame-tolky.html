@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="reCAPTCHA based on Bootstrap and Font Awesome!">
+    <title>Default Bootstrap - reCAPTCHA</title>
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/docs-theme.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      var RecaptchaOptions = {
+        theme: 'custom',
+        custom_theme_widget: 'recaptcha_widget'
+      };
+    </script>
+    <div id="recaptcha_widget">
+      <label class="control-label" for="recaptcha_response_field">Are you human?</label>
+      <div class="">
+        <div id="recaptcha_image" class="center-block"></div>
+
+        <div class="btn-group btn-group-xs btn-group-justified">
+          <a class="btn btn-default" id="recaptcha_reload_btn" href="javascript:Recaptcha.reload()" title="Get a new challenge" tabindex="-1"><span class="fa fa-refresh"></span></a>
+          <a class="btn btn-default recaptcha_only_if_image" href="javascript:Recaptcha.switch_type('audio')" title="Get audio challenge" tabindex="-1"><span class="fa fa-headphones"></span></a>
+          <a class="btn btn-default recaptcha_only_if_audio" href="javascript:Recaptcha.switch_type('image')" title="Get image challenge" tabindex="-1"><span class="fa fa-file-image-o"></span></a>
+          <a class="btn btn-default" href="javascript:Recaptcha.showhelp()" title="Help" tabindex="-1"><span class="fa fa-question"></span></a>
+        </div>
+      </div>
+      <br>
+      <input type="text" class="form-control" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Pedo Mellon a Minno">
+
+      <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+      <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Le2u_wSAAAAAL_gETRxPdb5oU3p5if1cDLCasKT"></script>
+    </div>
+  </body>
+</html>
