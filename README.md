@@ -33,8 +33,9 @@ Development
 -----------
 ###Prerequisites
  - [node.js](http://nodejs.org/)
- - Grunt's command line interface (CLI) installed globally 
- ```
+ - Grunt's command line interface (CLI) installed globally:
+
+ ```bash
  $ npm install -g grunt-cli
  ```
 
