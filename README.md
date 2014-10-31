@@ -31,7 +31,7 @@ How To Use
 
 Development
 -----------
-###Prerequisites
+### Prerequisites
  - [node.js](http://nodejs.org/)
  - Grunt's command line interface (CLI) installed globally:
 
@@ -39,7 +39,7 @@ Development
  $ npm install -g grunt-cli
  ```
 
-###Run
+### Run
 To run it for the first time install the Node packages:
 
 ```bash
